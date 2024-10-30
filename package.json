@@ -1,25 +1,21 @@
 {
-    "name": "my-package",
+    "name": "controller-array",
     "version": "1.0.0",
     "description": "A template npm package with best practices",
-    "main": "dist/index.js",
-    "types": "dist/index.d.ts",
     "repository": {
         "type": "git",
-        "url": "https://github.com/yourusername/my-package"
+        "url": "https://github.com/JoseBarrios/controller-array"
     },
     "scripts": {
-        "build": "tsc",
         "lint": "eslint src/**/*.{js,ts}",
         "test": "jest",
         "format": "prettier --write .",
-        "prepublishOnly": "npm run test && npm run lint && npm run build"
+        "prepublishOnly": "npm run test && npm run lint"
     },
-    "keywords": ["template", "npm", "best-practices"],
-    "author": "Your Name <you@example.com>",
+    "keywords": ["array", "controller", "mvc"],
+    "author": "Jose Barrios <npm@barrios.io>",
     "license": "MIT",
     "devDependencies": {
-        "typescript": "^4.0.0",
         "jest": "^27.0.0",
         "eslint": "^7.0.0",
         "prettier": "^2.0.0"
