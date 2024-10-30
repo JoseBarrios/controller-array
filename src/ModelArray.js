@@ -1,7 +1,9 @@
 // Main entry point
+const Model = require('../../mvc-model/src/MVCModel');
 
-class ModelArray {
+class ModelArray extends Model{
   constructor(array = []) {
+      super(array)
     this.array = array;
   }
 
