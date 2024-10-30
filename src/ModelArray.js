@@ -1,6 +1,6 @@
 // Main entry point
 
-class ControllerArray {
+class ModelArray {
   constructor(array = []) {
     this.array = array;
   }
@@ -42,4 +42,4 @@ class ControllerArray {
     }
 }
 
-module.exports = ControllerArray;
+module.exports = ModelArray;
