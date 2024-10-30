@@ -1,10 +1,10 @@
 {
-    "name": "controller-array",
+    "name": "model-array",
     "version": "1.0.0",
-    "description": "A template npm package with best practices",
+    "description": " Manages data and provide state updates.",
     "repository": {
         "type": "git",
-        "url": "https://github.com/JoseBarrios/controller-array"
+        "url": "https://github.com/JoseBarrios/model-array"
     },
     "scripts": {
         "lint": "eslint src/**/*.{js,ts}",
@@ -12,7 +12,7 @@
         "format": "prettier --write .",
         "prepublishOnly": "npm run test && npm run lint"
     },
-    "keywords": ["array", "controller", "mvc"],
+    "keywords": ["array", "model", "mvc"],
     "author": "Jose Barrios <npm@barrios.io>",
     "license": "MIT",
     "devDependencies": {

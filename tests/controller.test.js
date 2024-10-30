@@ -1,11 +1,11 @@
-const ControllerArray = require('../src/ControllerArray');
+const ModelArray = require('../src/ModelArray');
 
-describe('ControllerArray', () => {
+describe('ModelArray', () => {
   let cArray;
 
   beforeEach(() => {
     const array = [10, 1, 2, 3, 0, -1, 5];
-    cArray = new ControllerArray(array);
+    cArray = new ModelArray(array);
   });
 
   test('should return the largest numeric value in an array', () => {
